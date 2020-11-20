@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+header {
+  width: 100vw;
+  height: 5vh;
+  color: #008b8b
+}
+
+.body {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 95vh;
+}
+
+.book-list {
+  width: 75%;
+  height: 100%;
+}
+
+.shelf {
+  width: 25%;
+  height: 100%;
+  border-left: 2px solid black;
+  position: fixed;
+  right: 0;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
